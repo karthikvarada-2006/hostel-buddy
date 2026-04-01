@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hostel Hub</title>
+  <meta name="description"
+    content="Hostel Management System - Manage food menu, attendance, complaints, passes, and notices" />
+  <meta name="author" content="Hostel Hub" />
+
+  <!-- Blank favicon to override cached icons -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg'/>" />
+
+  <!-- Social Media Meta Tags -->
+  <meta property="og:title" content="Hostel Hub - Hostel Management System" />
+  <meta property="og:description"
+    content="Comprehensive hostel management system for managing food menu, attendance, complaints, passes, and notices" />
+  <meta property="og:type" content="website" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Hostel Hub - Hostel Management System" />
+
+  <script>
+    (function () {
+      try {
+        const theme = localStorage.getItem('vite-ui-theme') || 'light';
+        const root = window.document.documentElement;
+        root.classList.remove('light', 'dark');
+        root.classList.add(theme);
+      } catch (e) { }
+    })();
+  </script>
+</head>
+
+<body>
+  <div id="root"></div>
+  <script type="module" src="/src/main.tsx"></script>
+</body>
+
+</html>
